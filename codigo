@@ -1,0 +1,14 @@
+int main() {
+    int a = 28, b = 0;
+
+    for (int i = 1; i <= a / 2; i++) {
+        if (a % i == 0) {
+            b = b + 1;
+        }
+    }
+
+    if (b == a)
+        printf("\nEl número %d es perfecto", b);
+    }else{
+        printf("\nEl número %d no es perfecto", b);
+}
